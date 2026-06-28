@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ - Dự án CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+    <header>
+        <nav class="nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Trang chủ</a></li>
+                <li><a href="gallery.html">Bộ sưu tập</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero">
+            <h1>Chào mừng đến với trang web của tôi</h1>
+            <p>Đây là dự án hoàn thành khóa học CSS căn bản.</p>
+            <img src="https://picsum.photos/600/400?random=1" alt="Ảnh thiên nhiên ngẫu nhiên 1">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dự án CSS cá nhân</p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ sưu tập - Dự án CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+    <header>
+        <nav class="nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="gallery.html" class="active">Bộ sưu tập</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <h1>Bộ sưu tập hình ảnh</h1>
+        <div class="grid-container">
+            <img src="https://picsum.photos/400/300?random=2" alt="Ảnh ngẫu nhiên 2">
+            <img src="https://picsum.photos/400/300?random=3" alt="Ảnh ngẫu nhiên 3">
+            <img src="https://picsum.photos/400/300?random=4" alt="Ảnh ngẫu nhiên 4">
+            <img src="https://picsum.photos/400/300?random=5" alt="Ảnh ngẫu nhiên 5">
+            <img src="https://picsum.photos/400/300?random=6" alt="Ảnh ngẫu nhiên 6">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dự án CSS cá nhân</p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu - Dự án CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+    <header>
+        <nav class="nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="gallery.html">Bộ sưu tập</a></li>
+                <li><a href="about.html" class="active">Giới thiệu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <h1>Giới thiệu về tôi</h1>
+        <p>Tôi đang học lập trình web và đây là sản phẩm đầu tay.</p>
+        <img src="https://picsum.photos/400/300?random=7" alt="Ảnh ngẫu nhiên 7">
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dự án CSS cá nhân</p>
+    </footer>
+
+</body>
+</html>
